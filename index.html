@@ -18,7 +18,6 @@ Trata-se de um webpágina para mostruário da doceria "E ai, docin?"
     <!-- código css -->
     <link rel="stylesheet" href="./assets/css/stylesheet.css" />
     <title>E ai, Docin?</title>
-
 </head>
 
 <body>
@@ -29,7 +28,7 @@ Trata-se de um webpágina para mostruário da doceria "E ai, docin?"
         <!-- Barra de navegação -->
         <nav class="menu navbar navbar-expand-lg">
             <div class="container-fluid">
-                <a class="navbar-brand"><img class="rounded-circle logo" src="./assets/img/logo.jpg"></a>
+                <a class="navbar-brand"><img class="rounded-circle logo" src="./assets/img/logo.jpg" alt="Logo"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -37,9 +36,9 @@ Trata-se de um webpágina para mostruário da doceria "E ai, docin?"
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#nossa_historia">Nossa História</a>
+                        </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#visao_e_compromisso">Visão e Compromisso</a>
                         </li>
@@ -47,9 +46,13 @@ Trata-se de um webpágina para mostruário da doceria "E ai, docin?"
                             <a class="nav-link" href="#brigadeiros">Brigadeiros</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#tortas">Tortas</a>
+                            <a class="nav-link" href="#tortas">Bolos e Tortas</a>
                         </li>
-                        <a class="nav-link" href="#rosquinhas">Rosquinhas</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#bolonopote">Bolos de Pote</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#rosquinhas">Donuts</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#opniao-dos-clientes">Opinião dos Nossos Clientes</a>
@@ -61,7 +64,10 @@ Trata-se de um webpágina para mostruário da doceria "E ai, docin?"
                 </div>
             </div>
         </nav>
+        
+        </header>
 
+        <main>
 
         <!-- Seção Nossa História -->
         <section id="nossa_historia" class="container my-5">
@@ -71,18 +77,15 @@ Trata-se de um webpágina para mostruário da doceria "E ai, docin?"
                     <img src="./assets/img/feitocomcariho.jpg" class="img-fluid rounded mb-4"
                         alt="Imagem de uma mulher sorrindo">
                 </div>
-                <!-- Coluna do Texto -->
+                <!-- Coluna Nossa História -->
                 <div class="col-md-8">
                     <h1 class="mb-4">Nossa História</h1>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut, fugit tempore?
-                        Fugiat illo cum quia iste quos quisquam debitis, voluptates amet vitae fuga officia
-                        adipisci quod accusantium dolorem, sed, commodi perferendis cupiditate. Esse delectus
-                        ipsam assumenda eos incidunt dolorum ratione consequatur, harum expedita error,
-                        quaerat consectetur! Animi iure ex consectetur. Molestias a ratione vero perspiciatis
-                        numquam earum nostrum provident dicta ducimus quae explicabo blanditiis sapiente mollitia,
-                        officiis dignissimos qui ipsum rerum voluptatibus ut excepturi necessitatibus nesciunt
-                        saepe. Laboriosam, excepturi illo!
+                    <p style="font-size: large;">
+                        Em meio a pandemia, no ano de 2020, Érica Santana começou a aperfeiçoar suas aptidões culinárias
+                        e, com incentivo de sua família, em especial sua sócia e mãe, Dennilza Santana, iniciaram o
+                        projeto da 'E aí, docin?'. Inicialmente, com um cardápio restrito a brigadeiros e tortas de
+                        limão, Érica começou a estudar e se apaixonar cada vez mais pela confeitaria, aumentando mais
+                        seu portfólio de doces, podendo oferecer uma diversidade ainda maior para seu público.
                     </p>
                 </div>
                 <!-- Botão para voltar ao topo da página  -->
@@ -98,15 +101,9 @@ Trata-se de um webpágina para mostruário da doceria "E ai, docin?"
                 <!-- Coluna do Texto Visão-->
                 <div class="col-md-4">
                     <h3 class="mb-4">Visão </h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut, fugit tempore?
-                        Fugiat illo cum quia iste quos quisquam debitis, voluptates amet vitae fuga officia
-                        adipisci quod accusantium dolorem, sed, commodi perferendis cupiditate. Esse delectus
-                        ipsam assumenda eos incidunt dolorum ratione consequatur, harum expedita error,
-                        quaerat consectetur! Animi iure ex consectetur. Molestias a ratione vero perspiciatis
-                        numquam earum nostrum provident dicta ducimus quae explicabo blanditiis sapiente mollitia,
-                        officiis dignissimos qui ipsum rerum voluptatibus ut excepturi necessitatibus nesciunt
-                        saepe. Laboriosam, excepturi illo!
+                    <p style="font-size: large;">
+                        Ser uma confeitaria reconhecida em forma online e física, buscando inovações em sabores. Sempre
+                        oferecer aos nossos clientes a melhor qualidade desde o atendimento até a entrega.
                     </p>
                 </div>
                 <!-- Coluna da Imagem -->
@@ -118,331 +115,614 @@ Trata-se de um webpágina para mostruário da doceria "E ai, docin?"
                 <div class="col-md-4">
                     <h3 class=" ms-2 mb-4">Compromisso</h3>
                     <p class="ms-2">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut, fugit tempore?
-                        Fugiat illo cum quia iste quos quisquam debitis, voluptates amet vitae fuga officia
-                        adipisci quod accusantium dolorem, sed, commodi perferendis cupiditate. Esse delectus
-                        ipsam assumenda eos incidunt dolorum ratione consequatur, harum expedita error,
-                        quaerat consectetur! Animi iure ex consectetur. Molestias a ratione vero perspiciatis
-                        numquam earum nostrum provident dicta ducimus quae explicabo blanditiis sapiente mollitia,
-                        officiis dignissimos qui ipsum rerum voluptatibus ut excepturi necessitatibus nesciunt
-                        saepe. Laboriosam, excepturi illo!
+                    <ol style="font-size: large;">
+                        <li class="mb-2">Maior respeito aos nossos clientes, fornecedores, colaboradores e parceiros.
+                        </li>
+                        <li class="mb-2">Qualidade nos produtos e serviços.</li>
+                        <li>Ética, respeito e responsabilidade social, econômica e ambiental.</li>
+                    </ol>
                     </p>
                 </div>
             </div>
         </section>
 
+<!--------------------------------------------------------    Seção brigadeiros    -------------------------------------------------------->
         <section id="brigadeiros" class="py-5">
             <div class="container">
-                <h2 class="text-center my-5">Brigadeiros</h2>
-                <div class="row">
-                    <!-- Card 1 -->
-                    <div class="col-md-4 mb-4">
-                        <div class="card h-100">
-                            <img src="./assets/img/brigadeiro_no_pote.png" class="card-img-top card-image"
-                                alt="Imagem de brigadeiro de chocolate">
-                            <div class="card-body d-flex flex-column">
-                                <h5 class="card-title">Brigadeiro de chocolate</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam,
-                                    maxime?</p>
-                            </div>
+                <h1 class="text-center my-5">Brigadeiros</h1>
+        
+                <!-- Tabelca brigadeiros para festas -->
+                <div class="container mt-5">
+                    <h3 class="text-center">Brigadeiros para Festas</h3>
+                    <table class="table table-bordered table-striped ">
+                        <thead>
+                            <tr>
+                                <th>Categoria</th>
+                                <th>Sabores</th>
+                                <th>Valor Unitário</th>
+                                <th>Peso por Unidade (g)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>Simples</strong></td>
+                                <td>Tradicional, Ninho, Beijinho</td>
+                                <td class="text-center">R$ 1,50</td>
+                                <td class="text-center">15</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Premium</strong></td>
+                                <td>Casadinho, Churros, Paçoca</td>
+                                <td class="text-center">R$ 1,80</td>
+                                <td class="text-center">15</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Super Premium</strong></td>
+                                <td>Ninho com Nutella, Café, Bicho de Pé</td>
+                                <td class="text-center">R$ 2,00</td>
+                                <td class="text-center">15</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <uo>
+                        <p><strong>Observações</strong></p>
+                        <li>Pedido mínimo de 20 unidades.</li>
+                        <li>Normalmente em festas, cada convidado consome entre 3 a 5 doces.</li>
+                    </uo>
+
+                    <!-- Tabela brigadeiros de caixa -->
+                    <div class="container">                        
+                        <div class="container mt-5">
+                            <h3 class="text-center">Caixas de Brigadeiros</h3>
+                            <table class="table table-bordered table-striped">
+                                <thead>
+                                    <tr>
+                                        <th class="text-center">Sabores Disponíveis</th>
+                                        <th class="text-center">Quantidade de Brigadeiros</th>
+                                        <th class="text-center">Valor</th>
+                                        <th class="text-center">Peso por Brigadeiro</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="text-center">1 Sabor</td>
+                                        <td class="text-center">6 Brigadeiros</td>
+                                        <td class="text-center">R$ 16,00</td>
+                                        <td class="text-center">20g</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-center">2 Sabores</td>
+                                        <td class="text-center">8 Brigadeiros</td>
+                                        <td class="text-center">R$ 22,00</td>
+                                        <td class="text-center">20g</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-center">2 Sabores</td>
+                                        <td class="text-center">12 Brigadeiros</td>
+                                        <td class="text-center">R$ 28,00</td>
+                                        <td class="text-center">20g</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-center">3 Sabores</td>
+                                        <td class="text-center">15 Brigadeiros</td>
+                                        <td class="text-center">R$ 32,00</td>
+                                        <td class="text-center">20g</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-center">4 Sabores</td>
+                                        <td class="text-center">20 Brigadeiros</td>
+                                        <td class="text-center">R$ 36,00</td>
+                                        <td class="text-center">20g</td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
                     </div>
-                    <!-- Card 2 -->
-                    <div class="col-md-4 mb-4">
-                        <div class="card h-100">
-                            <img src="./assets/img/brigadeiro_de_morango.png" class="card-img-top card-image"
-                                alt="Imagem de brigadeiro de morango">
-                            <div class="card-body d-flex flex-column">
-                                <h5 class="card-title">Brigadeiro de morango</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam,
-                                    maxime?</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Card 3 -->
-                    <div class="col-md-4 mb-4">
-                        <div class="card h-100">
-                            <img src="./assets/img/brigadeiro_ninho_com_nutela.png" class="card-img-top card-image"
-                                alt="Imagem de brigadeiro de ninho com nutella">
-                            <div class="card-body d-flex flex-column">
-                                <h5 class="card-title">Brigadeiro de ninho com nutella</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam,
-                                    maxime?</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Card 4 -->
-                    <div class="col-md-4 mb-4">
-                        <div class="card h-100">
-                            <img src="./assets/img/brigadeiro_de_pacoca.png" class="card-img-top card-image"
-                                alt="Imagem de brigadeiro de paçoca">
-                            <div class="card-body d-flex flex-column">
-                                <h5 class="card-title">Brigadeiro de paçoca</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam,
-                                    maxime?</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Card 5 -->
-                    <div class="col-md-4 mb-4">
-                        <div class="card h-100">
-                            <img src="./assets/img/casadinho.png" class="card-img-top card-image"
-                                alt="Imagem de casadinho">
-                            <div class="card-body d-flex flex-column">
-                                <h5 class="card-title">Casadinho</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam,
-                                    maxime?</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Card 6 -->
-                    <div class="col-md-4 mb-4">
-                        <div class="card h-100">
-                            <img src="./assets/img/beijinho_doce.png" class="card-img-top card-image"
-                                alt="Imagem de beijinho doce">
-                            <div class="card-body d-flex flex-column">
-                                <h5 class="card-title">Beijinho doce</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam,
-                                    maxime?</p>
-                            </div>
-                        </div>
+
+        <!-- Cards dos sabores de brigadeiros -->
+        <div class="row">
+            <h2 class="text-center mt-4">Sabores</h2>
+            <div class="m-2"></div>
+            <!-- Card brigadeiro tradicional -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="./assets/img/brigadeiro_no_pote.png" class="card-img-top card-image"
+                        alt="Imagem de brigadeiro de chocolate">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Brigadeiro de chocolate tradicional</h5>
                     </div>
                 </div>
             </div>
+
+            <!-- Card brigadeiro de morango -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="./assets/img/brigadeiro_de_morango.png" class="card-img-top card-image"
+                        alt="Imagem de brigadeiro de morango">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Brigadeiro de morango</h5>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card de brigadeiro de ninho com nutella -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="./assets/img/brigadeiro_ninho_com_nutela.png" class="card-img-top card-image"
+                        alt="Imagem de brigadeiro de ninho com nutella">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Brigadeiro de ninho com nutella</h5>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card de brigadeiro de paçoca -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="./assets/img/brigadeiro_de_pacoca.png" class="card-img-top card-image"
+                        alt="Imagem de brigadeiro de paçoca">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Brigadeiro de paçoca</h5>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card de casadinho -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="./assets/img/casadinho.png" class="card-img-top card-image" alt="Imagem de casadinho">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Casadinho</h5>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card de beijinho doce -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="./assets/img/beijinho_doce.png" class="card-img-top card-image"
+                        alt="Imagem de beijinho doce">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Beijinho doce</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
         </section>
 
+
+        <!------------------------------------------------------ Seção de Bolos e Tortas ------------------------------------------------------>
         <section id="tortas" class="py-5">
             <div class="container">
-                <h2 class="text-center my-5">Tortas e Bolos</h2>
+                <h1 class="text-center my-5">Tortas e Bolos</h1>
                 <div class="row">
-                    <!-- Card 1 -->
+                    <!-- Card torta de limão -->
                     <div class="col-md-4 mb-4">
                         <div class="card h-100">
                             <img src="./assets/img/torta_de_limao.png" class="card-img-top card-image"
                                 alt="Imagem de torta de limão">
                             <div class="card-body d-flex flex-column">
                                 <h5 class="card-title">Torta de limão</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam,
-                                    maxime?</p>
+                                <p class="card-text">Crosta crocante, recheio cremoso de limão e leite condensado, coberta com merengue dourado.</p>
                             </div>
                         </div>
                     </div>
-                    <!-- Card 2 -->
+
+                    <!-- Card torta morena -->
                     <div class="col-md-4 mb-4">
                         <div class="card h-100">
                             <img src="./assets/img/torta_morena.png" class="card-img-top card-image"
                                 alt="Imagem de torta morena">
                             <div class="card-body d-flex flex-column">
                                 <h5 class="card-title">Torta morena</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam,
-                                    maxime?</p>
+                                <p class="card-text">Uma deliciosa torta de pão de ló de chocolate com camadas super finas                            intercaladas com um delicioso creme branco.</p>
                             </div>
                         </div>
                     </div>
-                    <!-- Card 3 -->
+
+                    <!-- Card bolo de brigadeiro -->
                     <div class="col-md-4 mb-4">
                         <div class="card h-100">
                             <img src="./assets/img/torta_de_brigadeiro.png" class="card-img-top card-image"
                                 alt="Imagem de torta de brigadeiro">
                             <div class="card-body d-flex flex-column">
-                                <h5 class="card-title">Torta de brigadeiro</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam,
-                                    maxime?</p>
+                                <h5 class="card-title">Bolo de brigadeiro</h5>
+                                <p class="card-text">Bolo de chocolate com recheio e cobertura de brigadeiro, decorada com brigadeiro, uma delícia cremosa!</p>
                             </div>
                         </div>
                     </div>
-                    <!-- Card 4 -->
+
+                    <!-- Card torta de kitkat -->
                     <div class="col-md-4 mb-4">
                         <div class="card h-100">
                             <img src="./assets/img/torta_kitkat.png" class="card-img-top card-image"
                                 alt="Imagem de torta Kitkat">
                             <div class="card-body d-flex flex-column">
                                 <h5 class="card-title">Torta de Kitkat</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam,
-                                    maxime?</p>
+                                <p class="card-text">Os bolos Kit Kat possuem uma base de docaração única: Kit Kat em sua volta. A                      decoração do topo pode ser feita com brigadeiros ou M&Ms, a escolha é do cliente. A fita que envolve o bolo pode ter sua cor    escolhida, também, pelo cliente.</p>
                             </div>
                         </div>
                     </div>
-                    <!-- Card 5 -->
+
+                    <!-- Card bolo sob encomenda -->
                     <div class="col-md-4 mb-4">
                         <div class="card h-100">
                             <img src="./assets/img/torta_sob_encomenda.png" class="card-img-top card-image"
                                 alt="Imagem de torta sob encomenda">
                             <div class="card-body d-flex flex-column">
-                                <h5 class="card-title">Torta sob encomenda</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam,
-                                    maxime?</p>
+                                <h5 class="card-title">Bolo sob encomenda</h5>
+                                <p class="card-text">Nosso bolo é composto por três discos de massa e duas camadas generosas de recheio. A decoração é personalizada conforme o gosto do cliente, que pode enviar fotos ou escolher a cor desejada, deixando-nos à vontade para criar a decoração. Os topos de bolo são feitos por nossos parceiros e, caso o cliente os solicite, o valor é cobrado separadamente do bolo.</p>
                             </div>
                         </div>
                     </div>
-                    <!-- Card 6 -->
+
+                    <!-- Card torta de morango -->
                     <div class="col-md-4 mb-4">
                         <div class="card h-100">
                             <img src="./assets/img/torta_de_morango.png" class="card-img-top card-image"
                                 alt="Imagem de torta de morango">
                             <div class="card-body d-flex flex-column">
                                 <h5 class="card-title">Torta de morango</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam,
-                                    maxime?</p>
+                                <p class="card-text">A torta de morango com base crocante tem uma camada crocante de biscoito, recheio cremoso de chantilly e morangos frescos, decorada com morango.</p>
                             </div>
                         </div>
                     </div>
 
-                    <!-- Card 7 -->
-                    <div class="col-md-4 mb-4">
-                        <div class="card h-100">
-                            <img src="./assets/img/bolo_de_pote.png" class="card-img-top card-image"
-                                alt="Imagem de bolo de pote">
-                            <div class="card-body d-flex flex-column">
-                                <h5 class="card-title">Bolo de pote</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam,
-                                    maxime?</p>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
-        </section>
 
-        <section id="rosquinhas" class="py-5">
+            <!-- tabela valores de bolos -->
+            <div class="container mt-5">
+                <h3 class="text-center">Valores de Bolos</h3>
+                <table class="table table-bordered">
+                  <thead>
+                    <tr class="table-light">
+                      <th scope="col">Tipo de Bolo</th>
+                      <th scope="col">Tamanho (cm)</th>
+                      <th scope="col">Valor</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Bolo Kit Kat</td>
+                      <td>10 x 15</td>
+                      <td>R$ 210,00</td>
+                    </tr>
+                    <tr class="table-light">	
+                      <td>Bolo Kit Kat</td>
+                      <td>20 x 21</td>
+                      <td>R$ 290,00</td>
+                    </tr>
+                    <tr>
+                      <td>Bolo Kit Kat</td>
+                      <td>24 x 26</td>
+                      <td>R$ 350,00</td>
+                    </tr>
+                    <tr class="table-light">
+                      <td>Bolo decorado com chantilly</td>
+                      <td>10 x 15</td>
+                      <td>R$ 200,00</td>
+                    </tr>
+                    <tr>
+                      <td>Bolo decorado com chantilly</td>
+                      <td>20 x 21</td>
+                      <td>R$ 270,00</td>
+                    </tr>
+                    <tr class="table-light">
+                      <td>Bolo decorado com chantilly</td>
+                      <td>24 x 26</td>
+                      <td>R$ 340,00</td>
+                    </tr>
+                  </tbody>
+                </table>
+            
+                <ul>
+                  <li><strong>Observação: </strong> Acréscimo de frutas ao bolo decorado com chantilly possui adicional de R$ 40,00.</li>
+                </ul>
+              </div>
+
+              <!-- Tabela de valores de tortas -->
+              <div class="container my-5">
+                <h3 class="text-center">Valores de Tortas</h1>
+                <table class="table table-bordered table-striped table-responsive">
+                    <thead class="table">
+                        <tr>
+                            <th>Produto</th>
+                            <th>Tamanho</th>
+                            <th>Valor</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td rowspan="4">Torta de Limão</td>
+                            <td>Tortele</td>
+                            <td>R$ 12,00</td>
+                        </tr>
+                        <tr>
+                            <td>Pequena</td>
+                            <td>R$ 25,00</td>
+                        </tr>
+                        <tr>
+                            <td>Média</td>
+                            <td>R$ 40,00</td>
+                        </tr>
+                        <tr>
+                            <td>Grande</td>
+                            <td>R$ 50,00</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2">Torta de Morango</td>
+                            <td>Média</td>
+                            <td>R$ 130,00</td>
+                        </tr>
+                        <tr>
+                            <td>Grande</td>
+                            <td>R$ 200,00</td>
+                        </tr>
+                        <tr>
+                            <td>Torta Morena</td>
+                            <td>Único</td>
+                            <td>R$ 110,00</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </section>    
+
+        <!------------------------------------------------------- Seçao de bolos de potes ------------------------------------------------------->
+        <section id="bolonopote" class="py-5">
             <div class="container">
-                <h2 class="text-center my-5">Rosquinhas</h2>
+                <h1 class="text-center my-5">Bolos de Pote</h1>
                 <div class="row">
-                    <!-- Card 1 -->
+                    <!-- Card bolo de pote -->
                     <div class="col-md-4 mb-4">
                         <div class="card h-100">
-                            <img src="./assets/img/rosquinhas.png" class="card-img-top card-image"
-                                alt="Imagem de rosquinhas sortidas">
+                            <img src="./assets/img/bolo_de_pote.png" class="card-img-top card-image" alt="Imagem de bolo de pote">
                             <div class="card-body d-flex flex-column">
-                                <h5 class="card-title">Rosquinha recheada</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam,
-                                    maxime?</p>
+                                <h5 class="card-title">Bolo de Pote</h5>
+                                <p class="card-text">Saborosos bolos de pote, perfeitos para qualquer ocasião. Escolha entre nossos sabores irresistíveis!</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
 
+            <!-- Tabela de valores de bolos de pote -->
+            <section id="tabela-bolonopote" class="py-5">
+                <div class="container">
+                    <table class="table table-bordered table-striped">
+                        <thead>
+                            <tr>
+                                <th class="text-center">Sabor</th>
+                                <th class="text-center">Descrição</th>
+                                <th class="text-center">Valor</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="text-center">Baunilha com Brigadeiro</td>
+                                <td>Delicioso bolo de baunilha com recheio de brigadeiro tradicional.</td>
+                                <td class="text-center">R$ 12,00</td>
+                            </tr>
+                            <tr>
+                                <td class="text-center">Baunilha com Mousse de Limão</td>
+                                <td>Bolo de baunilha com uma refrescante mousse de limão.</td>
+                                <td class="text-center">R$ 14,00</td>
+                            </tr>
+                            <tr>
+                                <td class="text-center">Ninho com Nutella</td>
+                                <td>Bolo de baunilha com recheio de leite ninho e Nutella.</td>
+                                <td class="text-center">R$ 16,00</td>
+                            </tr>
+                            <tr>
+                                <td class="text-center">Brigadeiro</td>
+                                <td>Bolo de chocolate com recheio de brigadeiro.</td>
+                                <td class="text-center">R$ 12,00</td>
+                            </tr>
+                            <tr>
+                                <td class="text-center">Prestígio</td>
+                                <td>Bolo de chocolate com recheio de coco e chocolate.</td>
+                                <td class="text-center">R$ 14,00</td>
+                            </tr>
+                            <tr>
+                                <td class="text-center">Casadinho</td>
+                                <td>Bolo de baunilha e chocolate com brigadeiro e beijinho.</td>
+                                <td class="text-center">R$ 16,00</td>
+                            </tr>
+                            <tr>
+                                <td class="text-center">Limão</td>
+                                <td>Bolo com sabor intenso de limão e cobertura cremosa.</td>
+                                <td class="text-center">R$ 16,00</td>
+                            </tr>
+                            <tr>
+                                <td class="text-center">Leite Ninho com Nutella</td>
+                                <td>Combinação irresistível de leite ninho e Nutella.</td>
+                                <td class="text-center">R$ 18,00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+            
+            <!----------------------------------------------------------- Seção de donuts ----------------------------------------------------------->
+            <section id="rosquinhas" class="py-5">
+                <div class="container">
+                    <h1 class="text-center my-5">Donuts</h1>
+                    <div class="row">
+                        <!-- Card donuts sortidos -->
+                        <div class="col-md-4 mb-4">
+                            <div class="card h-100">
+                                <img src="./assets/img/rosquinhas.png" class="card-img-top card-image"
+                                    alt="Imagem de rosquinhas sortidas">
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title">Donuts diversos</h5>
+                                    <p class="card-text">Donuts clássicos com coberturas deliciosas. Perfeitos para qualquer ocasião!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <!-- tabela de valores de donuts -->
+                    <div class="table-responsive mt-5">
+                        <table class="table table-bordered">
+                            <thead class="table-light">
+                                <tr>
+                                    <th>Produto</th>
+                                    <th>Quantidade</th>
+                                    <th>Preço</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td rowspan="2">Donut simples</td>
+                                    <td>Oito unidades</td>
+                                    <td>R$ 30,00</td>
+                                </tr>
+                                <tr>
+                                    <td>Dezesseis unidades</td>
+                                    <td>R$ 50,00</td>
+                                </tr>
+                                <tr>
+                                    <td rowspan="2">Donut recheado</td>
+                                    <td>Oito unidades</td>
+                                    <td>R$ 40,00</td>
+                                </tr>
+                                <tr>
+                                    <td>Dezesseis unidades</td>
+                                    <td>R$ 60,00</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+            
+                    <h4 class="mt-4">Observações</h4>
+                    <ul>
+                        <li><strong>Recheios:</strong> Brigadeiro tradicional, Doce de leite, Nutella</li>
+                        <li><strong>Coberturas:</strong> Chocolate ao leite, Cobertura colorida (rosa, verde ou azul)</li>
+                    </ul>
+                </div>
+            </section>
+            
+
+        <!-------------------------------------------------------- Seção de opniao dos clientes -------------------------------------------------------->
         <section id="opniao-dos-clientes" class="container my-5">
             <h2 class="text-center my-5">Opinião dos Nossos Clientes</h2>
             <div class="row">
-                <!-- Card 1 -->
+                <!-- Card opniao1 -->
                 <div class="col-md-4 mb-4">
                     <div class="card h-100">
                         <img src="./assets/img/opniao_cliente_1.png" class="card-img-top"
                             alt="Imagem de relatos de comprador no instagram">
                         <div class="card-body">
-                            <h5 class="card-title">A.B.C</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
-                                amet alias labore nostrum nihil eum nisi ut praesentium voluptas tempore!</p>
+                            <h5 class="card-title">@ciro.carv</h5>
+                            <p class="card-text">"Supera todas as expectativas"</p>
                         </div>
                     </div>
                 </div>
-                <!-- Card 2 -->
+
+                <!-- Card opniao2 -->
                 <div class="col-md-4 mb-4">
                     <div class="card h-100">
                         <img src="./assets/img/opniao_cliente_2.png" class="card-img-top"
                             alt="Imagem de relatos de comprador no instagram">
                         <div class="card-body">
-                            <h5 class="card-title">D.E.F</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
-                                amet alias labore nostrum nihil eum nisi ut praesentium voluptas tempore!</p>
+                            <h5 class="card-title">@mathrlira</h5>
+                            <p class="card-text">"Docinhos maravilhosos!"</p>
                         </div>
                     </div>
                 </div>
-                <!-- Card 3 -->
+
+                <!-- Card opniao3 -->
                 <div class="col-md-4 mb-4">
                     <div class="card h-100">
                         <img src="./assets/img/opniao_cliente_3.png" class="card-img-top"
                             alt="Imagem de relatos de comprador no instagram">
                         <div class="card-body">
-                            <h5 class="card-title">G.H.I</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
-                                amet alias labore nostrum nihil eum nisi ut praesentium voluptas tempore!</p>
+                            <h5 class="card-title">@zecapadoguinho.oficial</h5>
+                            <p class="card-text">"Humanos, papai e mamãe disseram que é uma delícia!"</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </section id="fale_conosco">
-        <div class="fale_conosco container my-5">
-            <section id="fale_conosco">
-                <h2 class="text-center mb-4">Fale Conosco</h2>
-                <form>
-                    <!-- Nome Completo -->
-                    <div class="mb-3">
-                        <label for="nome" class="form-label">Nome Completo</label>
-                        <input type="text" class="form-control" id="nome" placeholder="Seu nome completo" required>
-                        <div class="invalid-feedback">Por favor, insira seu nome completo.</div>
-                    </div>
-
-                    <!-- E-mail -->
-                    <div class="mb-3">
-                        <label for="email" class="form-label">E-mail</label>
-                        <input type="email" class="form-control" id="email" placeholder="nome@example.com" required>
-                        <div class="invalid-feedback">Por favor, insira um e-mail válido.</div>
-                    </div>
-
-                    <!-- Telefone de Contato -->
-                    <div class="mb-3">
-                        <label for="telefone" class="form-label">Telefone de Contato</label>
-                        <input type="tel" class="form-control" id="telefone" placeholder="(XX) XXXXX-XXXX" required>
-                        <div class="invalid-feedback">Por favor, insira um número de telefone válido.</div>
-                    </div>
-
-                    <!-- Mensagem -->
-                    <div class="mb-3">
-                        <label for="mensagem" class="form-label">Mensagem</label>
-                        <textarea class="form-control" id="mensagem" rows="4" placeholder="Digite sua mensagem"
-                            required></textarea>
-                        <div class="invalid-feedback">Por favor, insira sua mensagem.</div>
-                    </div>
-
-                    <!-- Botão de Enviar -->
-                    <button type="submit" class="btn btn-primary butao_enviar">Enviar</button>
-                </form>
             </section>
-        </div>
-        </section>
 
-</body>
+            <!--------------------------------------------------------- Seçao fale conosco --------------------------------------------------------->
+            <section id="fale_conosco">
+                <div class="fale_conosco container my-5">
+                    <section id="fale_conosco">
+                        <h2 class="text-center mb-4">Fale Conosco</h2>
+                        <!-- Formulário com o método POST e action para enviar para a mesma página -->
+                        <form action="contato.php" method="post">
+                            <!-- Nome Completo -->
+                            <div class="mb-3">
+                                <label for="nome" class="form-label">Nome Completo</label>
+                                <input type="text" class="form-control" id="nome" name="nome"
+                                    placeholder="Seu nome completo" required>
+                                <div class="invalid-feedback">Por favor, insira seu nome completo.</div>
+                            </div>
 
-<footer class="py-4">
-    <div class="container">
-        <div class="row align-items-center">
-            <!-- Coluna de Ícones e Contato (à esquerda) -->
-            <div class="col-md-6 text-start">
-                <!-- Ícone do Instagram -->
-                <a href="https://www.instagram.com/_eaidocin/" class="me-3" target="_blank">
-                    <i class="fa-brands fa-instagram instagram" style="color: #000000;"></i> Instagram
-                </a>
+                            <!-- E-mail -->
+                            <div class="mb-3">
+                                <label for="email" class="form-label">E-mail</label>
+                                <input type="email" class="form-control" id="email" name="email"
+                                    placeholder="nome@examplo.com" required>
+                                <div class="invalid-feedback">Por favor, insira um e-mail válido.</div>
+                            </div>
 
-                <!-- Link para WhatsApp -->
-                <a href="https://wa.me/5571996388486" class="me-3" target="_blank">
-                    <i class="fa-brands fa-whatsapp whatsapp" style="color: #000000;"></i> WhatsApp
-                </a>
+                            <!-- Telefone de Contato -->
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label">Telefone de Contato</label>
+                                <input type="tel" class="form-control" id="telefone" name="telefone"
+                                    placeholder="(XX) XXXXX-XXXX" required>
+                                <div class="invalid-feedback">Por favor, insira um número de telefone válido.</div>
+                            </div>
 
-                <!-- Telefone de Contato -->
-                <a href="tel:+55XXXXXXXXX" style="color: #000000;">
-                    <i class="fas fa-phone-alt fa-lg"></i> (XX) xxxxx-xxxx
-                </a>
+                            <!-- Mensagem -->
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label">Mensagem</label>
+                                <textarea class="form-control" id="mensagem" name="mensagem" rows="4"
+                                    placeholder="Digite sua mensagem" required></textarea>
+                                <div class="invalid-feedback">Por favor, insira sua mensagem.</div>
+                            </div>
+
+                            <!-- Botão de Enviar -->
+                            <button type="submit" class="btn btn-primary butao_enviar">Enviar</button>
+                        </form>
+
+                        <span id="mensagem-enviada" style="display:none; color: #d0a6b3;">Email enviado!</span>
+
+                    </section>
+                </div>
+            </section>
             </div>
-        </div>
 
-        <!-- Linha com o Copyright, centralizado -->
-        <div class="row">
-            <div class="col-12 text-center mt-3">
-                <p>Salvador - Bahia - Brasil</p>
-                <p>&copy; 2024 Todos os direitos reservados</p>
-            </div>
-        </div>
-    </div>
-</footer>
+        </main>
+            <footer>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12 text-center p-3">
+                            <a href="https://www.instagram.com/_eaidocin/"><i class="fa-brands fa-instagram ms-2 me-2"
+                                    style="color: #000000;"> _eaidocin</i></a>
+                            <a href="https://wa.me/5571996160966" target="_blank"><i
+                                    class="fa-brands fa-whatsapp me-2 ms-2" style="color: #000000;"> Whatsapp</i></a>
+                            <a href="tel:+5571996160966"><i class="fa-solid fa-phone ms-2 me-2" style="color: #000000;">
+                                    (71)
+                                    99616-0966</i></a>
+                        </div>
+                    </div>
 
-
-<!-- cdn script js bootstrap -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-5Z5Zgj5l5Zl3+9v6+9J9n6H>5Z5Zgj5l5Zl3+9v6+9J9n6H" crossorigin="anonymous"></script>
+                    <div class="col-md-12 text-center pb-2">
+                        <p>Salvador - Bahia - Brasil</p>
+                        <p>&copy; 2024 Todos os direitos reservados</p>
+                    </div>
+                </div>
+            </footer>
+    
+            <!-- cdn script js bootstrap -->
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-5Z5Zgj5l5Zl3+9v6+9J9n6H>5Z5Zgj5l5Zl3+9v6+9J9n6H" crossorigin="anonymous"></script>
 </body>
 
 </html>
